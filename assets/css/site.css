@@ -1,0 +1,8 @@
+* {
+    position: relative;
+}
+
+#hero {
+    background-size: cover;
+    background-image: url("../img/stickysbg.gif");
+}
