@@ -20,8 +20,11 @@
 
 <body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
 
-  <div id="hero" class="text-center align-middle vh-100 position-relative">
-    <div class="position-absolute top-0 start-0 bottom-0 end-0 bg-black bg-opacity-50"></div>
+  <div id="hero" class="bg-black text-center align-middle vh-100 position-relative">
+    <video id="hero-video" class="position-absolute top-0 start-0 bottom-0 end-0 bg-black" muted autoplay loop>
+      <source src="assets/vid/stickysbgmuted.mp4" type="video/mp4">
+    </video>
+    <div id="hero-overlay" class="position-absolute top-0 start-0 bottom-0 end-0 bg-black bg-opacity-75"></div>
     <div class="d-flex px-4 py-5 justify-content-center align-items-center flex-column vh-100">
       <img class="d-block mx-auto mb-4" src="assets/img/hero-logo.png" alt="" data-aos="zoom-in"
         data-aos-duration="1000">
@@ -175,7 +178,8 @@
     </div>
 
     <div class="d-grid gap-5 d-sm-flex justify-content-sm-center mb-5" data-aos="fade-up">
-      <a class="btn btn-primary btn-lg p-0 overflow-hidden" href="" data-aos="fade-right">
+      <a class="btn btn-primary btn-lg p-0 overflow-hidden" href="https://store.steampowered.com/app/4118780/Stickys/"
+        data-aos="fade-right">
         <img height="100px" src="assets/img/wishlistonsteam.png" alt="wishlist on steam" />
       </a>
 

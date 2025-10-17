@@ -2,7 +2,22 @@
     position: relative;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 #hero {
-    background-size: cover;
-    background-image: url("../img/stickysbg.gif");
+    overflow: hidden;
+}
+
+#hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#hero-overlay {
+    background: radial-gradient(circle,
+            rgb(0, 0, 0, 0),
+            rgb(0, 0, 0, 0.25));
 }
